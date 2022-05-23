@@ -33,16 +33,16 @@ nav .container {
 
 /* Sezione a */
 
-.container {
-    width: 90%;
-    margin: 0 auto;
+.sct-a {
+    padding: 20px;
 }
 
 .card {
     padding: 30px;
     background-color: #b5ddff;
     width: 100%;
-    margin: 20px 0;
+    margin-bottom: 15px;
+    /* margin: 20px 0; */
     /* line-height: 0; */
     border-radius: 20px;
 }
@@ -82,6 +82,7 @@ nav .container {
 }
 
 .image img {
+    display: block;
     width: 250px;
 }
 
@@ -90,10 +91,61 @@ nav .container {
     color: #0084fd;
 }
 
-/* Sezione b */
-
 .c-icon {
     text-align: center;
+}
+
+/* Sezione b */
+
+.sct-b {
+    padding: 30px;
+    background-color: #9593e6;
+}
+
+.sct-b img {
+    width: 100%;
+}
+
+.sct-b .plan {
+    color: white;
+}
+
+.sct-b .plan h2 {
+    margin: 20px 0;
+}
+
+.card-2 {
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 35px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-2 i {
+    /* display: block; */
+    font-size: 25px;
+    background-color: #9593e6;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card-2 img {
+    margin-bottom: 20px;
+}
+
+.card-2 h2 {
+    margin-bottom: 20px;
+}
+
+.card-2 span {
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px
 }
 
 /* Tablet */
