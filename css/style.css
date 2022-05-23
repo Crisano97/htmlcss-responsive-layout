@@ -142,11 +142,98 @@ nav .container {
     margin-bottom: 20px;
 }
 
-.card-2 span {
+.sct-b .card-2 span {
     line-height: 25px;
     font-style: italic;
     margin-bottom: 20px
 }
+
+/* Sezione c */
+
+.sct-c {
+    padding: 30px;
+}
+
+.sct-c .text {
+    text-align: center;
+}
+
+.sct-c .card-2 {
+    padding: 30px 10px;
+    background-color: #9593e6;
+    color: white;
+}
+
+.sct-c .card-2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.circle-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.quote::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f10e";
+    margin-left: 5px;
+}
+
+.quote::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f10d";
+    margin-right: 5px;
+}
+
+/* Sezione d */
+
+.sct-d {
+    padding: 30px;
+    background-color: #9593e6;
+}
+
+.sct-d .card {
+    background-color: white;
+}
+
+.sct-d a {
+    background-color: #9593e6;
+}
+
+.number {
+    display: block;
+    font-size: 40px;
+    color:#9593e6;
+    margin-bottom: 20px;
+}
+
+.sct-d h2 {
+    color: #9593e6;
+    margin-bottom: 20px;
+}
+
+.sct-d .desc {
+    line-height: 30px;
+}
+
+
 
 /* Tablet */
 
