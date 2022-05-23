@@ -169,7 +169,6 @@ nav .container {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-
 }
 
 .circle-img {
@@ -207,10 +206,21 @@ nav .container {
 .sct-d {
     padding: 30px;
     background-color: #9593e6;
+    text-align: center;
+
+}
+
+.title {
+    display: block;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .sct-d .card {
     background-color: white;
+    text-align: left;
 }
 
 .sct-d a {
@@ -233,7 +243,52 @@ nav .container {
     line-height: 30px;
 }
 
+/* Sezione e */
 
+.sct-e {
+    padding: 30px;
+}
+
+.sct-e .title{
+    color: #9593e6;
+}
+
+.long-text {
+    display: block;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.sct-e img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sct-e .circle-img {
+    position: relative;
+}
+
+.circle-img i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #9593e6;
+    font-size: 60px;
+}
+
+.sct-e .img-quote {
+    color: #9593e6;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sct-e a {
+    color: whitesmoke;
+    padding: 10px 20px;
+    background-color: #9593e6;
+}
 
 /* Tablet */
 
