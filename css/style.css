@@ -290,6 +290,78 @@ nav .container {
     background-color: #9593e6;
 }
 
+/* Footer */
+
+.ft-1 {
+    padding: 30px;
+    background-color: #9593e6;
+    text-align: center;
+}
+
+.ft-1 span {
+    display: block;
+    margin-bottom: 20px;
+} 
+
+.start {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.simple {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.free {
+    color: orange;
+    font-size: 50px;
+}
+
+.caption {
+    color: whitesmoke;
+    line-height: 30px;
+}
+
+.ft-1 a {
+    display: block;
+    background-color: whitesmoke;
+    color: #9593e6;
+    margin: 30px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.ft-2 {
+    padding: 30px;
+    background-color: #333;
+    text-align: center;
+}
+
+.ft-2 span{
+    display: block;
+}
+
+.r-text {
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.l-text {
+    color: white;
+}
+
+.l-text a {
+    color: #9593e6;
+}
 /* Tablet */
 
 @media screen and (min-width: 768px) {
