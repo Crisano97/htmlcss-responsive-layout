@@ -6,6 +6,7 @@
 
 body span {
     display: block;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Mobile */
@@ -27,6 +28,20 @@ nav {
 
 .full-menu li {
     display: inline-block;
+    padding: 10px;
+}
+
+.full-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 nav .container {
@@ -65,7 +80,7 @@ nav .container {
 }
 
 .button {
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .button a {
@@ -472,6 +487,18 @@ footer .button {
 /* Desktop */
 
 @media screen and (min-width: 992px) {
+    .hamburger {
+        display: none;
+    }
+    
+    .full-menu {
+        display: block;
+    }
+
+    .description {
+        width: 75%;
+    }
+
     .container {
         width: 90%;
         margin: 0 auto;
